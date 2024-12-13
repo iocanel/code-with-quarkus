@@ -11,6 +11,8 @@ metadata:
     app.kubernetes.io/name: code-with-quarkus
     app.kubernetes.io/version: 1.0.0-SNAPSHOT
     app.quarkus.io/version: 3.17.3
+  annotations:
+    backstage.io/source-location: url:https://github.com/iocanel/code-with-quarkus
   tags:
   - java
   - quarkus
